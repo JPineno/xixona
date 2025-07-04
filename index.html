@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Xixona Heladería</title>
+  </head>
+
+  <body>
+    <div class="hero">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a class="logo">
+              <img src="assets/Logo Xixona.png" alt="Logo" />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#cartas">Cartas</a></li>
+          <li><a href="#nosotros">Sobre Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="nav__btns">
+          <a href="https://www.google.com/maps/place/Heladeria+Xixona/@39.5772368,-0.3256407,152m/data=!3m1!1e3!4m6!3m5!1s0xd6041572ba7dbab:0x2793d4b575f56aff!8m2!3d39.5770053!4d-0.3261695!16s%2Fg%2F11nfppmsgk?entry=tts" target="_blank" class="btn">
+            <i class="ri-map-pin-2-line"></i>
+          </a>
+        </div>
+      </nav>
+      <header id="inicio">
+        <div class="hero__text">
+          <h1 id="xixona__hero">XIXONA</h1>
+          <p id="text__hero">Heladería, Turronería</p>
+          <a href="#cartas" id="hero__btn">Nuestras Cartas</a>
+        </div>
+      </header>
+    </div>
+
+    <section class="section__container cartas__container" id="cartas">
+      <h2 class="section__header">Nuestras cartas</h2>
+      <div class="cartas__grid">
+
+        <div class="cartas__card">
+          <img src="assets/Carta de helados imagen.jpg" alt="Helados" />
+          <div class="cartas__card__content">
+            <h4>Helado, horchata y granizados</h4>
+            <p>Prueba el mejor helado, horchata y granizados artesanos, ¡elige entre nuestros sabores y disfruta! Disponible a partir de Fallas.</p>
+            <button onclick="window.open('assets/Carta de helados.pdf', '_blank')">Carta de helados</button>
+          </div>
+        </div>
+
+        <div class="cartas__card">
+          <img src="assets/Carta de desayunos y meriendas imagen.jpg" alt="Desayunos y meriendas" />
+          <div class="cartas__card__content">
+            <h4>Desayunos y meriendas</h4>
+            <p>Para empezar el día o reunirte con amigos a la hora de merendar, ofrecemos café, tostadas, gofres y mucho más.</p>
+            <button onclick="window.open('assets/Carta de desayunos y meriendas.pdf', '_blank')">Carta de desayunos y meriendas</button>
+          </div>
+        </div>
+
+        <div class="cartas__card">
+          <img src="assets/Carta de turrón imagen.jpg" alt="Turrón" />
+          <div class="cartas__card__content">
+            <h4>Turrón</h4>
+            <p>Cuando nos contagiamos del espíritu navideño, la mejor forma de felicitar a un ser querido es con el mejor turrón jijonenco.</p>
+            <button onclick="window.open('assets/Carta de turrón.pdf', '_blank')">Carta de turrón</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section__container nosotros__container" id="nosotros">
+      <h2 class="section__header">Sobre nosotros</h2>
+
+      <div class="nosotros__flex">
+        <p>El helado y el turrón se encuentran en el ADN de Jijona, el lugar más dulce del mundo. Por eso, es nuestro objetivo compartir el placer de los dulces artesanales con el mundo. <br>
+          <br>
+          Descúbrenos en nuestra heladería en la Pobla de Farnals y prueba nuestros productos.</p>
+        <img src="assets/Paisaje Jijona.jpg" alt="Paisaje de Jijona" />
+      </div>
+
+      <h3 class="subsection__header">Nuestro Horario</h3>
+      <div class="horario__grid">
+
+        <div class="horario__card">
+          <h4>Lunes</h4>
+          <p><b>Mañanas:</b> 7:00/14:00 <br>
+            <b>Tardes:</b> 17:00/20:00</p>
+        </div>
+
+        <div class="horario__card">
+          <h4>Martes</h4>
+          <p><b>Mañanas:</b> 7:00/14:00 <br>
+            <b>Tardes:</b> Cerrado</p>
+        </div>
+
+        <div class="horario__card">
+          <h4>Miércoles</h4>
+          <p>Cerrado</p>
+        </div>
+
+        <div class="horario__card">
+          <h4>Jueves</h4>
+          <p><b>Mañanas:</b> 7:00/14:00 <br>
+            <b>Tardes:</b> 17:00/20:00</p>
+        </div>
+
+        <div class="horario__card">
+          <h4>Viernes</h4>
+          <p><b>Mañanas:</b> 7:00/14:00 <br>
+            <b>Tardes:</b> 17:00/20:00</p>
+        </div>
+
+        <div class="horario__card">
+          <h4>Sábado</h4>
+          <p><b>Mañanas:</b> 8:00/14:00 <br>
+            <b>Tardes:</b> 17:00/20:00</p>
+        </div>
+
+        <div class="horario__card">
+          <h4>Domingo</h4>
+          <p><b>Mañanas:</b> 8:00/14:00 <br>
+            <b>Tardes:</b> 17:00/20:00</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section__container contacto__container" id="contacto">
+      <h2 class="section__header">Contacto</h2>
+
+      <div class="contacto__flex">
+
+        <h6 class="contacto__field">EMAIL</h6>
+        <p class="contacto__text">xixonahelados@gmail.com</p>
+        
+        <h6 class="contacto__field">TELÉFONO</h6>
+        <p class="contacto__text">620 396 344</p>
+        
+        <h6 class="contacto__field">DIRECCIÓN</h6>
+        <p class="contacto__text">Pl. Francisco Tomás y Valiente, 1, 46139 La Pobla de Farnals, Valencia</p>
+
+        <h6 class="contacto__field">¡Te esperamos!</h6>
+
+      </div>
+    </section>
+
+    <section class="section__container bottom__nav__container">
+      <div class="bottom__nav__flex">
+        <ul class="bottom__nav__links" id="bottom-nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#cartas">Cartas</a></li>
+          <li><a href="#nosotros">Sobre Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <a href="#inicio">
+          <img src="assets/Logo Xixona.png" />
+        </a>
+      </div>
+    </section>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
