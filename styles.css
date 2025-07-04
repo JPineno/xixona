@@ -298,8 +298,8 @@ nav {
 }
 
 .contacto__flex p {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   color: var(--marron-oscuro);
   margin-bottom: 1.7rem;
   font-size: 1.2rem;
